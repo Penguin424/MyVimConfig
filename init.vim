@@ -24,9 +24,9 @@ set pastetoggle=<F2>
 " Uncomment below to set the max textwidth. Use a value corresponding to the width of your screen.
 set textwidth=150
 set formatoptions=tcqrn1
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 set noshiftround
 set t_Co=256
@@ -111,7 +111,6 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 :imap ii <Esc>
-
 nmap <Leader>nt :NERDTreeFind<Cr>
 nmap <Leader>s :w<Cr>
 nmap <Leader>sd :wq<Cr>
@@ -121,3 +120,4 @@ inoremap <c-s> <c-o>:w<CR>
 nnoremap <c-z> :u<CR>
 inoremap <c-z> <c-o>:u<Cr>
 vnoremap <c-c> <c-o>:y<Cr>
+imap <c-a> <Esc> 
