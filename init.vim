@@ -112,6 +112,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 :imap ii <Esc>
 nmap <Leader>nt :NERDTreeFind<Cr>
+nmap <Leader>nc :NERDTreeClose<Cr>
 nmap <Leader>s :w<Cr>
 nmap <Leader>sd :wq<Cr>
 nmap <Leader>q :q<Cr>
