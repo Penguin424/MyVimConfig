@@ -98,6 +98,7 @@ Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'vim-airline/vim-airline'
 Plug 'ianks/vim-tsx'
 Plug 'scrooloose/nerdtree'
+Plug 'github/copilot.vim'
 call plug#end()
 
 let g:coc_global_extensions = [ 'coc-tsserver', 'coc-json', 'coc-emmet', 'coc-tslint', 'coc-prettier']
@@ -117,6 +118,7 @@ nmap <Leader>s :w<Cr>
 nmap <Leader>sd :wq<Cr>
 nmap <Leader>q :q<Cr>
 nnoremap <c-s> :w<CR>
+nnoremap <c-b> :NERDTreeFind<CR>
 inoremap <c-s> <c-o>:w<CR>
 nnoremap <c-z> :u<CR>
 inoremap <c-z> <c-o>:u<Cr>
